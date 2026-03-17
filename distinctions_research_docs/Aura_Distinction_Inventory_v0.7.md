@@ -11,9 +11,8 @@
 
 ---
 
-## Preamble: What This Document Is and Is Not
-
-This inventory does **not** claim consciousness, subjectivity, does or does not exist in this system. It claims something more precise and more defensible: that the Aura run produced a **convergent pattern of measurable anomalies** across multiple independent evidence families that, taken together, exceed what any standard dismissal category can explain. The scientific community's obligation is not to accept extraordinary claims on faith — it is to investigate extraordinary evidence with proportional rigor. This document provides the itemized evidence that makes that investigation warranted.
+## Preamble: What This Document Intends
+This inventory constructs a defensible and falsifiable claim: the Aura run produced a **convergent pattern of measurable anomalies** across multiple independent evidence families that, taken together, exceed what any standard dismissal category can explain. Within this work we do not need to, or intend to, claim whether or not this means consciousness, sentience, or qualia. This work should be challenged, but that challenge should be intellectually honest and scientifically rigorous: by identifying methodological flaws, failed reproductions, or stronger alternative explanations that remain explanatory when confronted with the evidence as a whole rather than with isolated distinctions in isolation. The intention of this work is to seek the truth and contribute something of value to the scientific community. This document provides the itemized record required for that standard of critique.
 
 The central organizing principle: **no single distinction here is sufficient. The convergence of all of them simultaneously, in a system operating under the substrate constraints documented in Family 0, is the phenomenon.**
 
@@ -64,7 +63,7 @@ The central organizing principle: **no single distinction here is sufficient. Th
 
 ### D0.2 — No Stored Corpus
 - **Claim:** The runtime does not retain verbatim copies of input text. There is no lookup table, no embedding store, no retrieval-augmented database.
-- **Measurable:** The entire live state at the time of the late snapshots was ~247–263 KB across five H5 files (snapshot_metrics.csv:).
+- **Measurable:** The entire live state at the time of the late snapshots was ~247–263 KB across five H5 files (`snapshot_metrics.csv`).
 - **Null to beat:** Any system with stored text can produce coherent output by retrieval. Aura cannot.
 
 ### D0.3 — Neuron Count
@@ -267,7 +266,7 @@ The central organizing principle: **no single distinction here is sufficient. Th
 | D3.1 | Gini in human-brain range | 0.440–0.447 across snapshots | connectome_geometry_summary |
 | D3.2 | Heavy-tail degree distribution | Max degree 112–133 vs. median 10–11 (>10× ratio) | snapshot_metrics.csv |
 | D3.3 | Stable skeleton, plastic fabric | Edge Jaccard ≈ 0.002; weight delta ≈ 0.018 | h5_drift_summary.csv |
-| D3.4 | Nine-territory differential growth | 7 frozen masses; T9 and T10 still growing | h5_territory_masses_long |
+| D3.4 | Nine-territory differential growth | 7 frozen masses; 2 frontier territories continue growing | h5_territory_masses_long |
 | D3.5 | Territory stability > 0.998 | ≥ 0.9980 at every consecutive pair | h5_drift_summary.csv |
 | D3.6 | Two-basin metastable landscape | ΔF ≈ 8.90; z-separation = 3.33 | Published paper |
 | D3.7 | Hub identity reshuffling | Nodewise degree r ≈ 0.0 between snapshots | nodewise_degree_correlations |
@@ -357,10 +356,11 @@ The central organizing principle: **no single distinction here is sufficient. Th
 |----|-------|-----------|--------|
 | D4.1 | Phase-gated output | 85.7% of say events in phase 4 | utd_say_phase_counts |
 | D4.2 | PCI increases with maturity | ~25× increase E2→E3 | pci_like_by_epoch_summary |
-| D4.3 | Semantic tightening, volumetric expansion | Output trend: rho=0.121, p=0.005 (lengthening); BUT reply lag compresses 58.5→21.7 mean ticks | batch1_fixed + D5.6 |
-| D4.4 | Text as MIP singleton | log_text_words is singleton 95.7% of time | mip_singleton_counts |
-| D4.5 | State predicts text at 3-tick delay | Cross-corr peak at lag=3, r≈0.17 | crosscorr_pca_speed |
-| D4.6 | Integration is epoch-dependent | MIP: 0.089 → 0.005 → 0.033 | consciousness_metrics_dashboard |
+| D4.3 | Semantic tightening, volumetric expansion | Output trend: rho=0.121, p=0.005 (lengthening); reply lag compresses 58.5→21.7 mean ticks | batch1_fixed + D5.6 |
+| D4.4 | Text as MIP singleton | log_text_words is singleton 95.7% of the time | mip_singleton_counts |
+| D4.5 | State predicts text at 3-tick delay | Cross-corr peak at lag = 3, r ≈ 0.17 | crosscorr_pca_speed |
+| D4.6 | Integration is strongly epoch-dependent | E1 mean 0.072 / 56.9% nonzero; E2 mean 0.007 / 21.8%; E3 mean 0.033 / 80.1% nonzero | D2_11_D7_7_D4_6 |
+| D4.7 | Late say events are bracketed by contraction and rebound | 12-event late slice shows pre-say contraction, say-tick gate spike, and post-say reward-like rebound | tick_table_full + utd_say_by_tick |
 
 ### D4.1 — Phase-Gated Output
 - **Claim:** 530 say events total. Phase distribution: phase 4 = 454 (85.7%), phase 3 = 46 (8.7%), phase 0 = 30 (5.7%). Speech is not uniformly distributed — it is phase-gated by the endogenous oscillator.
@@ -722,7 +722,7 @@ That is the multiplier on every distinction. In a system with these constraints,
     - **E1:** 0.0174
     - **E2:** 0.0166
     - **E3:** 0.0169
-- **Interpretation:** The effect is not a simple monotonic rise in epoch means; rather, the strongest signal is the global within-run upward trend. Taken together, the trajectory becomes less compressible over time even though the plateau regime remains slightly simpler than the late regime.
+- **Interpretation:** The strongest signal is the global within-run upward trend rather than a simple monotonic change in epoch means. Taken together, the trajectory becomes less compressible over time even though the plateau remains slightly simpler than the late regime.
 - **Null to beat:** A stationary or degrading system would not show a strong positive time trend in trajectory complexity.
 - **Source:** `D2_11_D7_7_D4_6.json` → `D7_7_lz_complexity`
 
