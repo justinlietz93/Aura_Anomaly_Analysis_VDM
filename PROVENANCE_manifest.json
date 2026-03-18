@@ -31,7 +31,7 @@
       ".so"
     ]
   },
-  "file_count": 546,
+  "file_count": 578,
   "files": [
     {
       "path": ".gitignore",
@@ -39,14 +39,49 @@
       "size": 17
     },
     {
-      "path": "Aura_20260222_083552.zip",
-      "sha256": "adaf1c30de1ab70b75c0cb92438e20ce971bedc661fa7223e466dcd987c4bb28",
-      "size": 1130713935
-    },
-    {
       "path": "README.md",
       "sha256": "cd90db0c30879630691e398d9f1c6b43aca57816659445e863826202f9b243c2",
       "size": 3862
+    },
+    {
+      "path": "data/.gitignore",
+      "sha256": "e7003f6175eba6aac71708d5569cb877f82534b004a1677cef39e5a99804c54a",
+      "size": 293
+    },
+    {
+      "path": "data/cleaned_event_logs/20260222_200818_events_parsed.csv",
+      "sha256": "f638c204fe8b3e63805ab512990a811f8a6e83c613cadd2bcdf8af197fc13357",
+      "size": 70195976
+    },
+    {
+      "path": "data/cleaned_event_logs/events_merged.csv",
+      "sha256": "a74b028dfc1d2a6cc073b4631b80ed7a32a58297c9e0656632e9dfc6229b0755",
+      "size": 18632161
+    },
+    {
+      "path": "data/cleaned_event_logs/events_parsed.csv",
+      "sha256": "a74b028dfc1d2a6cc073b4631b80ed7a32a58297c9e0656632e9dfc6229b0755",
+      "size": 18632161
+    },
+    {
+      "path": "data/cleaned_event_logs/events_parsed_slim.csv",
+      "sha256": "be43219589a70dc8c6abedf7b1dde00416b802e6a132d84b5760c2538a37b08b",
+      "size": 33423
+    },
+    {
+      "path": "data/cleaned_event_logs/events_slim2.csv",
+      "sha256": "b6f045d4c827afb31559d56a87e0bdd063974f76829e04f04b5eb41d5ec2da53",
+      "size": 16514
+    },
+    {
+      "path": "data/curated/curated_behavioral_milestones.csv",
+      "sha256": "5c1267f6aaf65ac3d8ca8607105e1cba683815c9791d861bb7dd40fdb9b50d59",
+      "size": 5218
+    },
+    {
+      "path": "data/curated/curated_territory_timeline.csv",
+      "sha256": "045ab33a73ccf45195e62d38f0d457868eeb1c61542a24097bca57ce1ed302ec",
+      "size": 946
     },
     {
       "path": "data/engrams/state_17160.h5",
@@ -74,34 +109,19 @@
       "size": 260930
     },
     {
-      "path": "data/raw_event_logs/20260222_091321/events.jsonl",
-      "sha256": "ed341c5f5e0631a25143a562b22611aec1f4d1fe9bf44bd78e49368271393230",
-      "size": 536872333
+      "path": "data/packages/20260222_145647_events_parsed.csv.gz",
+      "sha256": "e652331ff6f6aaae49bda18ca2d8f3243d03e45f5916ca190f6ed5627eb33da0",
+      "size": 86912620
     },
     {
-      "path": "data/raw_event_logs/20260222_105406/events.jsonl",
-      "sha256": "8a0b553cb8467a6039fd43b99780af114a1690b7c46e19846938da9bfb7f8029",
-      "size": 536993594
+      "path": "data/packages/20260222_165807_events_parsed.csv.gz",
+      "sha256": "ef7a0d6b4fb7c426d7f285e3c0471e1a1980a14041e03b1796e8aa03773f8446",
+      "size": 37150739
     },
     {
-      "path": "data/raw_event_logs/20260222_124646/events.jsonl",
-      "sha256": "d58d174ba488e88e09465897659cb698c1750a8d57fdc149299045716bb299f3",
-      "size": 537030684
-    },
-    {
-      "path": "data/raw_event_logs/20260222_145647/events.jsonl",
-      "sha256": "d84f90a132f94164a7f1a1f7b83eb963bff3ffcd42c7785bfa25092842a4b590",
-      "size": 537049560
-    },
-    {
-      "path": "data/raw_event_logs/20260222_165807/events.jsonl",
-      "sha256": "56a2f57142a6645b2706e5df0ce228bd7f2fa01b14e7e89a3893996bba2f9376",
-      "size": 536965147
-    },
-    {
-      "path": "data/raw_event_logs/20260222_200818/events.jsonl",
-      "sha256": "bd730948fe2624ecd37ff6f1a5555885b61aef8c1ef28e904a5a974e2032326a",
-      "size": 70825578
+      "path": "data/packages/tick_table_full.csv.gz",
+      "sha256": "525c957827b89ec7964ea832f6ffbdeaa6f63427dd3b582ea171c6594cdb6911",
+      "size": 549517
     },
     {
       "path": "data/raw_utd_event_logs/utd_events.jsonl",
@@ -214,14 +234,29 @@
       "size": 1048684
     },
     {
+      "path": "data/snapshot_metrics/snapshot_metrics.csv",
+      "sha256": "a9f02e2cc5bd5fbffec8cf33c8a70241da8307c51fb129b0e02fad1f2d1577cb",
+      "size": 596
+    },
+    {
+      "path": "data/snapshot_metrics/snapshot_metrics_legacy.csv",
+      "sha256": "2d9ff89474aa44876aa6d6a9504a6f003b7f4751b4c8ce41c98044c74eeaf769",
+      "size": 1840
+    },
+    {
+      "path": "data/timeseries/timeseries_core_renamed_Aura.csv",
+      "sha256": "6aa573130277ea2ef68c735ac8bc8d1a5c5a4c3809ca4cfa4a9674506cee673b",
+      "size": 5061970
+    },
+    {
+      "path": "distinctions_research_docs/Aura_Distinction_Inventory_v0.7.md",
+      "sha256": "e0bdcde151a1dd44ddbbe8e6a0b504f6493933c48a9b539579eeb3c39b384e4f",
+      "size": 98784
+    },
+    {
       "path": "distinctions_research_docs/Aura_Distinction_Null_Hypotheses.txt",
       "sha256": "7133008bb26e7496ed963cdeaed43b947deadb00bdec4b308f72b63a82fdbf57",
       "size": 5974
-    },
-    {
-      "path": "distinctions_research_docs/D11-1_motif_origins_docs/Aura_Distinction_Inventory_v0.5.with_D11_1_direct.md",
-      "sha256": "1ed47c66ab17e1e5c6139e4a3e42510550f180a8735ab7c26ca8b427c79f645b",
-      "size": 79766
     },
     {
       "path": "distinctions_research_docs/D11-1_motif_origins_docs/D11_1_direct_note.md",
@@ -1305,8 +1340,8 @@
     },
     {
       "path": "metadata/F8_PACKAGE_MANIFEST.txt",
-      "sha256": "e5bd90c20306614fdb93b49457d9f199014ab827a9dd48f78bd50f72747e5717",
-      "size": 583
+      "sha256": "464324ef432a351c2cbea3d74d0e989ff3070a2c8ae3f952f6f9b180466b70a7",
+      "size": 584
     },
     {
       "path": "metadata/artifact_manifest.csv",
@@ -1567,6 +1602,16 @@
       "path": "tables/D73_fast_granger_tables/d73_fast_granger_edge_status.csv",
       "sha256": "e20f312c9e7dda6f4552976a67d8fdcae95740816142ec95fd4a005cebd073fd",
       "size": 1372
+    },
+    {
+      "path": "tables/D7_territories__tables/curated_behavioral_milestones.csv",
+      "sha256": "5c1267f6aaf65ac3d8ca8607105e1cba683815c9791d861bb7dd40fdb9b50d59",
+      "size": 5218
+    },
+    {
+      "path": "tables/D7_territories__tables/curated_territory_timeline.csv",
+      "sha256": "045ab33a73ccf45195e62d38f0d457868eeb1c61542a24097bca57ce1ed302ec",
+      "size": 946
     },
     {
       "path": "tables/D7_territories__tables/d57_behavioral_milestone_alignment.csv",
@@ -2684,91 +2729,206 @@
       "size": 9496
     },
     {
-      "path": "data/cleaned_event_logs/20260222_200818_events_parsed.csv",
-      "sha256": "f638c204fe8b3e63805ab512990a811f8a6e83c613cadd2bcdf8af197fc13357",
-      "size": 70195976
+      "path": "data/cleaned_event_logs/cleaned_event_logs.zip",
+      "sha256": "9ddd2df678219e3e6b7a0da24b7b04d0282793f78836730ddbc1fb0cc46b2083",
+      "size": 13936654
     },
     {
-      "path": "data/cleaned_event_logs/events_merged.csv",
-      "sha256": "a74b028dfc1d2a6cc073b4631b80ed7a32a58297c9e0656632e9dfc6229b0755",
-      "size": 18632161
+      "path": "distinctions_research_docs/D1_4_neologism_synthesis_docs/CLAIM_SENTENCE.md",
+      "sha256": "57c4c4a1581d455c008582861b6bc60e517e4bd9a0e3216468148bf11e4901f6",
+      "size": 376
     },
     {
-      "path": "data/cleaned_event_logs/events_parsed.csv",
-      "sha256": "a74b028dfc1d2a6cc073b4631b80ed7a32a58297c9e0656632e9dfc6229b0755",
-      "size": 18632161
+      "path": "distinctions_research_docs/D1_4_neologism_synthesis_docs/D1_4_report.md",
+      "sha256": "8df9ec49ed3b4ab7e18e99c81d372eac719cb5d50a20d982f7b37fc3e92f07a0",
+      "size": 3257
     },
     {
-      "path": "data/cleaned_event_logs/events_parsed_slim.csv",
-      "sha256": "be43219589a70dc8c6abedf7b1dde00416b802e6a132d84b5760c2538a37b08b",
-      "size": 33423
+      "path": "distinctions_research_docs/D1_4_neologism_synthesis_docs/METHODS.md",
+      "sha256": "bd73d6ca60da554eed42f4b9eada09bee919b5f7b85986636d9edd984d24cf5f",
+      "size": 1483
     },
     {
-      "path": "data/cleaned_event_logs/events_slim2.csv",
-      "sha256": "b6f045d4c827afb31559d56a87e0bdd063974f76829e04f04b5eb41d5ec2da53",
-      "size": 16514
+      "path": "figures/D1_4_neologism_synthesis_figures/d14_full_run_phase_counts.png",
+      "sha256": "6dbda4a0fc4c46c4bf8655ffe0ddfd09d0293a21f2f6cd76d7179d94ab92db99",
+      "size": 65616
     },
     {
-      "path": "data/curated/curated_behavioral_milestones.csv",
-      "sha256": "5c1267f6aaf65ac3d8ca8607105e1cba683815c9791d861bb7dd40fdb9b50d59",
-      "size": 5218
+      "path": "figures/D1_4_neologism_synthesis_figures/d14_joyce_window_cumulative_onset.png",
+      "sha256": "aff63bf81fcb5efaa4ca246eaa3e0f694214f3a05fa94de59fbd58aba1cdfc9c",
+      "size": 110409
     },
     {
-      "path": "data/curated/curated_territory_timeline.csv",
-      "sha256": "045ab33a73ccf45195e62d38f0d457868eeb1c61542a24097bca57ce1ed302ec",
-      "size": 946
+      "path": "figures/D1_4_neologism_synthesis_figures/d14_reviewed_copy_vs_recombination.png",
+      "sha256": "23a3a4cf1a3f1bcaaf5bd1043359d605f13b3b6ef77f2799b65e7a0df8cc06e9",
+      "size": 98787
     },
     {
-      "path": "data/packages/20260222_145647_events_parsed.csv.gz",
-      "sha256": "e652331ff6f6aaae49bda18ca2d8f3243d03e45f5916ca190f6ed5627eb33da0",
-      "size": 86912620
+      "path": "figures/D1_4_neologism_synthesis_figures/d14_reviewed_marker_counts.png",
+      "sha256": "9869948ad85ef1eed28a40ec9399e12bea6515fd0fa0b7db27c79d4e2bb76b31",
+      "size": 158752
     },
     {
-      "path": "data/packages/20260222_165807_events_parsed.csv.gz",
-      "sha256": "ef7a0d6b4fb7c426d7f285e3c0471e1a1980a14041e03b1796e8aa03773f8446",
-      "size": 37150739
+      "path": "figures/D1_4_neologism_synthesis_figures/d14_reviewed_marker_timeline.png",
+      "sha256": "ac4ceed38c5611cbfb4bead6f3079a1588bae7385526fa7ace4f31d66c6e79e3",
+      "size": 117136
     },
     {
-      "path": "data/packages/tick_table_full.csv.gz",
-      "sha256": "525c957827b89ec7964ea832f6ffbdeaa6f63427dd3b582ea171c6594cdb6911",
-      "size": 549517
+      "path": "figures/D1_4_neologism_synthesis_figures/d14_span_profile.png",
+      "sha256": "c5ab167a586b6a4539e09e5ccf9e3de622d782ad2220d013dc3b161811eed78a",
+      "size": 100939
     },
     {
-      "path": "data/snapshot_metrics/snapshot_metrics.csv",
-      "sha256": "a9f02e2cc5bd5fbffec8cf33c8a70241da8307c51fb129b0e02fad1f2d1577cb",
-      "size": 596
+      "path": "figures/F7_phase_transitions_figures/saddle.png",
+      "sha256": "c0497deed0e4552b88574fda013438f7a603b6f4ae3b9212a09c597503aa0cd9",
+      "size": 692630
     },
     {
-      "path": "data/snapshot_metrics/snapshot_metrics_legacy.csv",
-      "sha256": "2d9ff89474aa44876aa6d6a9504a6f003b7f4751b4c8ce41c98044c74eeaf769",
-      "size": 1840
+      "path": "figures/pca/aura_3d_trajectory.png",
+      "sha256": "c2369276448249cc5eea4191620d60b03e3e9fb7fe71164cd0aac85e610db541",
+      "size": 858773
     },
     {
-      "path": "data/timeseries/timeseries_core_renamed_Aura.csv",
-      "sha256": "6aa573130277ea2ef68c735ac8bc8d1a5c5a4c3809ca4cfa4a9674506cee673b",
-      "size": 5061970
+      "path": "figures/pca/aura_state_space.png",
+      "sha256": "132ca4bcb0c7226655e695de210224ee18ee94f08a9c857f2fdb475ed6ae3bc6",
+      "size": 892976
     },
     {
-      "path": "distinctions_research_docs/Aura_Distinction_Inventory.md",
-      "sha256": "f8eae608d494aeaaf7b170b46f7d5178d982cc02bbba9b22c8b7552be4915742",
-      "size": 95438
+      "path": "metadata/D1_4_neologism_synthesis_provenance/SOURCE_NOTES.md",
+      "sha256": "0ed30b436990d3ebc7bb462cb75552c1038a5fb352d74075a5f9b677e07a851b",
+      "size": 936
     },
     {
-      "path": "tables/D7_territories__tables/curated_behavioral_milestones.csv",
-      "sha256": "5c1267f6aaf65ac3d8ca8607105e1cba683815c9791d861bb7dd40fdb9b50d59",
-      "size": 5218
+      "path": "metadata/D1_4_neologism_synthesis_provenance/input_file_hashes.csv",
+      "sha256": "c1b045e7bb379ce442443f0daa7f2282eaddde8ab7b4879429bde3a9af6eaa90",
+      "size": 1163
     },
     {
-      "path": "tables/D7_territories__tables/curated_territory_timeline.csv",
-      "sha256": "045ab33a73ccf45195e62d38f0d457868eeb1c61542a24097bca57ce1ed302ec",
-      "size": 946
+      "path": "metadata/D1_4_neologism_synthesis_provenance/inputs/aura_justin_exchange.md",
+      "sha256": "050a9032703867014f24a12b0ff7f156251c02c0886e7eaebe1162529bc3eb5a",
+      "size": 255193
+    },
+    {
+      "path": "metadata/D1_4_neologism_synthesis_provenance/inputs/book_feed_timeline.csv",
+      "sha256": "d38738275f9408d756d80c5bf6579a015e9f69917bdd6d7e394378eda36dc851",
+      "size": 186
+    },
+    {
+      "path": "metadata/D1_4_neologism_synthesis_provenance/inputs/extracted_say_events.csv",
+      "sha256": "ad8ffb8203ba9d5d54e19b73fe06ab62dfc710b83aeb6f0bd238764daf96db84",
+      "size": 284658
+    },
+    {
+      "path": "metadata/D1_4_neologism_synthesis_provenance/manifest.json",
+      "sha256": "ec8d628b71b30caaad6840916ed7a5836b58e0826b48a4b44ed88061616200e2",
+      "size": 3447
+    },
+    {
+      "path": "scripts/D1_4_neologism_synthesis_scripts/README.md",
+      "sha256": "ebc1cba009e0a441ecda9e65b430b1d16a75006e19dd075019b0e554ab84fd93",
+      "size": 184
+    },
+    {
+      "path": "scripts/D1_4_neologism_synthesis_scripts/build_d14_package_analysis.py",
+      "sha256": "b789c7437555c4e301655a23ecabdd42a9e236d8c37dc7a38fc457ac85706e8a",
+      "size": 5680
+    },
+    {
+      "path": "scripts/D1_4_neologism_synthesis_scripts/build_d14_package_v6.py",
+      "sha256": "200fdce9891b52912712f9cc8567c6f56a82e46a2d09035e2f03048a34107c0c",
+      "size": 3214
+    },
+    {
+      "path": "scripts/derive_H.py",
+      "sha256": "eed760b25e9e58a8eb405817390bb3798d930e02195889aa3551c25963627b26",
+      "size": 10408
+    },
+    {
+      "path": "tables/D1_4_neologism_synthesis_tables/d14_automated_candidate_events.csv",
+      "sha256": "44fcbc2e5786462394435f490923b57fc005e21d58a5ff723a8f4f76d1264716",
+      "size": 35856
+    },
+    {
+      "path": "tables/D1_4_neologism_synthesis_tables/d14_extracted_say_events.csv",
+      "sha256": "ad8ffb8203ba9d5d54e19b73fe06ab62dfc710b83aeb6f0bd238764daf96db84",
+      "size": 284658
+    },
+    {
+      "path": "tables/D1_4_neologism_synthesis_tables/d14_first_20_post_switch_outputs.csv",
+      "sha256": "30d62c11e12216e92b55060311538a7bd38ff7f6e2ef74ae9528c54a3aef8962",
+      "size": 10789
+    },
+    {
+      "path": "tables/D1_4_neologism_synthesis_tables/d14_full_run_outputs_annotated.csv",
+      "sha256": "ce287f8c87d734d7588ed87dc75c90adfadbfb26beae9a87ee663abbed15dd1b",
+      "size": 270004
+    },
+    {
+      "path": "tables/D1_4_neologism_synthesis_tables/d14_joyce_window_early_window_summary.csv",
+      "sha256": "919efaca21e1043c78404d0a9de0812895a66c2ded410b6147360ed30c24bb91",
+      "size": 351
+    },
+    {
+      "path": "tables/D1_4_neologism_synthesis_tables/d14_phase_summary.csv",
+      "sha256": "7f7f69ee0d9ebc74f20dab79092024c9fa979789fa8ef5984ec824315967c236",
+      "size": 231
+    },
+    {
+      "path": "tables/D1_4_neologism_synthesis_tables/d14_raw_joyce_events.csv",
+      "sha256": "fba562b080ae4a7d213f953e8e973cda2f358e42d4150ad3fa4879abaf80ea7c",
+      "size": 39582
+    },
+    {
+      "path": "tables/D1_4_neologism_synthesis_tables/d14_representative_examples.csv",
+      "sha256": "fe063311a3ed2d13bbee1af61991bbf318b2bdc62f48d6c22b9640e145705d35",
+      "size": 10340
+    },
+    {
+      "path": "tables/D1_4_neologism_synthesis_tables/d14_reviewed_joyce_events.csv",
+      "sha256": "3ac7bac65b4c207f0df6698173bfd690afc6a5b6345e61b28af2cb9b4d2283ad",
+      "size": 19313
+    },
+    {
+      "path": "tables/D1_4_neologism_synthesis_tables/d14_reviewed_joyce_lexicon.csv",
+      "sha256": "868a95768d05314ce12d62839381b277e35def547fede18a3dfc00a1ab05b19c",
+      "size": 386
+    },
+    {
+      "path": "tables/D1_4_neologism_synthesis_tables/d14_reviewed_marker_events.csv",
+      "sha256": "149a2be2e412a343168460016b9fe451e8fae35f44224785b347ea62d7d12d0c",
+      "size": 18723
+    },
+    {
+      "path": "tables/D1_4_neologism_synthesis_tables/d14_reviewed_marker_lexicon.csv",
+      "sha256": "637f637ab78333b3b15f98da07ea6f0422e9a76106a44267874635a0a6f38c02",
+      "size": 2186
+    },
+    {
+      "path": "tables/D1_4_neologism_synthesis_tables/d14_strong_synthesis_events.csv",
+      "sha256": "6b258cb7e5c72af2a9f176f8dcc91daea203eb687b0e2d9f16dccef855708e34",
+      "size": 11789
+    },
+    {
+      "path": "tables/D1_4_neologism_synthesis_tables/d14_summary_metrics.csv",
+      "sha256": "72c2fb47840798cb36449d18afc371d81da0289ea2dd1491081f2189722b6725",
+      "size": 656
+    },
+    {
+      "path": "tables/D1_4_neologism_synthesis_tables/d14_zero_trigram_raw_joyce_events.csv",
+      "sha256": "aa88a6214eaac91d6b7dd3093f270e330d693a9aa3a27aeb2da8ef1c656c06ab",
+      "size": 263
+    },
+    {
+      "path": "tables/derived_H_sample.csv",
+      "sha256": "fc8da5766d4ededb2994585998b62c3d50503710bc328cdcc50da721cbe6d519",
+      "size": 19940
     }
   ],
-  "generated_utc": "2026-03-17T11:42:46.629155Z",
-  "git_commit": "003e04df7bf08c224a0e461831d39d269dc3a5f5",
+  "generated_utc": "2026-03-18T16:11:24.297723Z",
+  "git_commit": "1ae17a705311516beb66e84eff2b4a08b736c4c6",
   "git_dirty": true,
   "repo_root": "/home/justin/Documents/Research/VDM/Aura_Investigation/aura_analysis_bundle",
   "schema": "vdm.provenance.manifest.v1",
-  "total_bytes": 4198423103,
-  "tree_hash": "56c574182e2e2b535b2d8ccc68a4478585144d56fe8b2bc8d6c37d54303be22d"
+  "total_bytes": 330224070,
+  "tree_hash": "5b47708775eb67adbfa09a570ff7947b77ec311dae50ff0cc6c404acbb887160"
 }
